@@ -1,9 +1,9 @@
-#inizializzazione degli importi
+#import initialization
 import time
 import tkinter as tk
 import os
 import subprocess, signal
-#creazione e modifica  della finestra
+#creation & mod of the window
 prog = True
 window = tk.Tk()
 window.geometry("600x600")
@@ -13,7 +13,7 @@ window.configure(background="black")
 labelExample = tk.Label(window, text="Fai una pausa", fg="red", font=("Helvetica", 50))
 window.attributes("-topmost", True)
 
-#funzione che andrà a creare la finestra dopo un tempo prestabilito
+#function that will create the window after a preset time
 if __name__ == "__main__":
     print("The program is working")
     time.sleep(900)
