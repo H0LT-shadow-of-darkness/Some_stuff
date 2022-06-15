@@ -1,4 +1,4 @@
-package es;
+
 import java.util.Scanner;
 public class compz {
 
@@ -31,9 +31,9 @@ public class compz {
 			PIN_critto1=PIN_critto1+PIN_critto.charAt(i);
 		}
 		if(PIN_inserito.equals(PIN_critto1)) {
-			System.out.println("IL PIN INSERITO PUò ESSERE CORRETTO");
+			System.out.println("IL PIN INSERITO PUÃ² ESSERE CORRETTO");
 		}else {
-			System.out.println("IL PIN INSERITO NON PUò ESSERE CORRETTO");
+			System.out.println("IL PIN INSERITO NON PUÃ² ESSERE CORRETTO");
 
 		}
 	
