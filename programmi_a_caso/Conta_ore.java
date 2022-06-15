@@ -1,5 +1,5 @@
 import java.util.*;
-public class App {
+public class Conta_ore {
     public static void main(String[] args) throws Exception {
         int ora_inizio, ora_fine,  min_inizio, min_fine;
         int ora_finale, min_finale;
